@@ -2,11 +2,15 @@
   grid-template-columns: 1fr;
   inline-size: min(21.875rem, 95%);
   grid-template-areas: "heroImage" "heroText";
+
+  &__title {
+    margin-block-end: 1rem;
+  }
 }
 .hero-wrapper {
   display: flex;
   flex-direction: column;
-  margin-block: 2.75rem;
+  margin-block: 2rem 2.75rem;
   margin-inline: 2rem;
   grid-area: heroText;
 }
